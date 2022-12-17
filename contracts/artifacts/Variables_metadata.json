@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bestClub",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "show",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Variable.sol": "Variables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Variable.sol": {
+			"keccak256": "0xab15e8ec195b60bcaad963c8ca796c08f66f89afe25e3bd10d141e48b983a521",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2944ce6b799d7459307332fc555f652c15a00dc3209bb2b77c400583da7c1e2a",
+				"dweb:/ipfs/QmaMNG7k2Nuv8EqGor1ZjD4BE4sWec54bSxRtAfXiaMyGv"
+			]
+		}
+	},
+	"version": 1
+}
