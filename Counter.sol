@@ -5,8 +5,10 @@ pragma solidity ^0.8.17;
 contract Counter {
     uint public count;
 
+
     function inc() external{
         count += 5;
+        
     }
 
 
