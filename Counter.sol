@@ -1,18 +1,14 @@
 // SPDX-License-Identifier: MIT
-// compiler version must be greater than or equal to 0.8.13 and less than 0.9.0
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.7; // Burada versiyon belirttik!
 
-contract Counter {
-    uint public count;
+contract Counter { // Counter adında bir sözleşme oluşturduk
+    uint256 public count; // 0 veya daha büyük sayıları alabilen ve herkese açık bir count değişkeni oluşturduk
 
-
-    function inc() external{
-        count += 5;
-        
+    function inc() external { // bir fonksiyon oluşturup inc adını verdik. Bu değişken count değişkenini 1 artırır.
+        count += 1; // count değişkenini 1 artırır.
     }
 
-
-    function dec() external{
-        count -= 1;
+    function dec() external { // bir fonksiyon daha oluşturup dec adını verdik. Bu değişken count değikenini 1 azaltır.
+        count -= 1; // count değişkenini 1 azaltır.
     }
- }
+}
